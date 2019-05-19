@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.StartActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S O C I A L   C H A T"
+            android:textSize="37sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="APP"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"/>
+
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:background="@color/grey"
+            android:layout_height="200dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/wel_icon1" />
+
+            <!--<ImageView-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:src="@drawable/wel_icon1" />-->
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" LOOKING FOR THE BEST CHAT APP??"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/bottomText"
+        android:id="@+id/txt_rider_app"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:layout_above="@id/txt_rider_app">
+        <Button
+            android:id="@+id/start_log_btn"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:textColor="@android:color/white"
+            android:text="SIGN IN"
+            android:background="@drawable/btn_sign_in_background"
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:textStyle="bold"
+            android:id="@+id/start_reg_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:textColor="@android:color/white"
+            android:text="Register"
+            android:background="@drawable/btn_register_background"
+            android:layout_weight="1"
+
+            />
+
+
+
+
+        <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="350dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="230dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@android:color/holo_blue_dark">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+
+        <!--&lt;!&ndash;android:layout_width="350dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="220dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/social_chat_logo"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_centerInParent="true" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_height="537dp"-->
+
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@color/grey">-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Welcome To Social Chat App"-->
+        <!--android:textColor="@android:color/holo_green_dark"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="64dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Welcome Notes // Will be included late"-->
+        <!--android:textColor="@color/lightBlack"-->
+        <!--android:textSize="22dp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+
+        <!--&lt;!&ndash;android:layout_width="350dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="220dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignParentTop="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="130dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/social_chat_logo" />&ndash;&gt;-->
+
+
+        <!--<Button-->
+        <!--android:id="@+id/start_reg_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="66dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Need A New Account?? " />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/start_log_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/start_reg_btn"-->
+
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="-66dp"-->
+        <!--android:text="Already have An Account ?? " />-->
+
+
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
